@@ -1,0 +1,7 @@
+.text {
+    text-align : center;
+}
+
+.chattingRoomTitle {
+    -fx-background-color: aqua;
+}

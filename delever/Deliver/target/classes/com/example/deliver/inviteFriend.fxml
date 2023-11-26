@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deliver.InviteFriendController">
+    <children>
+        <Label layoutX="26.0" layoutY="14.0" prefHeight="91.0" prefWidth="490.0" text="친구 초대" />
+        <TableView layoutY="419.0" prefHeight="320.0" prefWidth="550.0">
+            <columns>
+                <TableColumn prefWidth="485.0" text="이름" />
+                <TableColumn minWidth="5.0" prefWidth="64.0" text="친밀도" />
+            </columns>
+        </TableView>
+        <Button layoutX="206.0" layoutY="749.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="138.0" text="친구 초대" />
+        <TextField layoutX="229.0" layoutY="359.0" prefHeight="23.0" prefWidth="291.0" />
+      <Label layoutX="26.0" layoutY="350.0" prefHeight="40.0" prefWidth="185.0" text="이름을 입력하세요." />
+      <Button layoutX="344.0" layoutY="160.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="146.0" text="나가기" />
+    </children>
+</AnchorPane>

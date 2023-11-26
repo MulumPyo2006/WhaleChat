@@ -1,0 +1,63 @@
+.chatPane {
+    -fx-background-image: url(Image/ChatPane.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.textPane {
+    -fx-background-image: url(Image/TextPane.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.chatPaneTwo {
+    -fx-background-image: url(Image/ChatPaneTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.signUpChat {
+    -fx-background-image: url(Image/SignUpChat.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.signUpChat:focused {
+    -fx-background-image: url(Image/SignUpChatTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.signUpExit {
+    -fx-background-image: url(Image/SignUpExit.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.signUpExit:hover {
+    -fx-background-image: url(Image/SignUpExitTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.sendButton {
+    -fx-background-image: url(Image/SendButton.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.sendButton:hover {
+    -fx-background-image: url(Image/SendButtonTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.sendButton:focused {
+    -fx-background-image: url(Image/SendButtonThree.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.backgroundRemove {
+    -fx-background-color: transparent;
+}

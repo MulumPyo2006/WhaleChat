@@ -1,0 +1,15 @@
+.signUpScreen {
+    -fx-background-image: url(Image/SingUpScreen.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.loginScreen {
+    -fx-background-image: url(Image/LoginScreen.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.backgroundRemove {
+    -fx-background-color: transparent;
+}
